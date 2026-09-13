@@ -556,7 +556,11 @@ class API:
 
     def quit(self):
         import webview
-        webview.windows[0].destroy()
+        import os
+        if webview.windows:
+            webview.windows[0].destroy()
+
+        os._exit(0)
 
 def find_free_port():
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
