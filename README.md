@@ -1,6 +1,6 @@
 # PDF Text Search
 
-A GUI application ([Flask](https://flask.palletsprojects.com/) + [pywebview](https://pywebview.flowrl.com/))  that searches for a term across all PDFs in a folder (including subfolders), displays the matching documents, and opens a PDF directly to the relevant page.
+A Python GUI application built with [Flask](https://flask.palletsprojects.com/) and [PyWebView](https://pywebview.flowrl.com/) that searches for a term across all PDFs in a folder (including subfolders), displays the matching documents, and opens a PDF directly to the relevant page.
 
 ## Download
  
